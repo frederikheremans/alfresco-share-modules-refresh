@@ -15,7 +15,7 @@ Usage
 Adding the webscript to share should be done the same as with any other custom webscripts. To get started quick, you can find a 
 simple guide to add the webscript, using the tomcat 'shared' folder.
 
-1. Add the redeploy-modules.jar file to the classpath of the Share-webapp (eg. WEB-INF/lib)
+1. Add the 'reload-modules.jar' file to the classpath of the Share-webapp (eg. WEB-INF/lib)
 2. Make sure the 'shared' folder is added to the shared loader of your tomcat container (see http://wiki.alfresco.com/wiki/Install_Tomcat6, or alternatively, just use the real WEB-INF/classes folder)
 3. Make sure the folder '$tomcat/shared/classes/alfresco/web-extension' exists.
 4. Copy all files in 'share-artifacts' folder to the web-extensions folder.
