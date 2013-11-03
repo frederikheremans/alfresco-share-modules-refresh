@@ -20,7 +20,6 @@ simple guide to add the webscript, using the tomcat 'shared' folder.
 3. Make sure the folder '$tomcat/shared/classes/alfresco/web-extension' exists.
 4. Copy all files in 'share-artifacts' folder to the web-extensions folder.
 5. Add (or modify if you already have one) the share-config-custom.xml file in the web-extensions folder and add the folowing line to the 
-6. 'Web-Framework' config evaluator:
-```<enable-dynamic-extension-modules>true</enable-dynamic-extension-modules>```
+6. 'Web-Framework' config evaluator: ```<enable-dynamic-extension-modules>true</enable-dynamic-extension-modules>```
 7. Start the share tomcat
 8. Call http://localhost:8081/share/service/reload-module-deployments. A simple text-response should be returned, if the webscript is deployed successfuly.
